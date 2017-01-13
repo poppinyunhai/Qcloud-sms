@@ -1,7 +1,9 @@
 require "qcloud/sms/version"
 
 module Qcloud
-  module Sms
-    # Your code goes here...
+  class Sms
+    def self.hi
+      puts 'aaaaaaaaaa'
+    end
   end
 end
